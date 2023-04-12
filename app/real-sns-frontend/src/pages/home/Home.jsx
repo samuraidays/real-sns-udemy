@@ -11,8 +11,8 @@ export default function Home() {
       <Topbar />
       <div className="homecontainer">
         <Sidebar />
-        <Timeline />
-        <Rightbar />
+        {/*         <Timeline />
+        <Rightbar /> */}
       </div>
     </>
   );
