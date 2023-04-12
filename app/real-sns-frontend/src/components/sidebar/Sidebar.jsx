@@ -8,12 +8,13 @@ import {
   Search,
   Settings,
 } from "@mui/icons-material";
+import "./Sidebar.css";
 
 export default function Sidebar() {
   return (
     <div className="siderbar">
       <div className="sidebarWrapper">
-        <ul className="siderList">
+        <ul className="sidebarList">
           <li className="sidebarListItem">
             <Home className="sidebarIcon" />
             <span className="sidebarListItemText">ホーム</span>
@@ -52,6 +53,22 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             <span className="sidebarFriendName">Shin Code</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              src="/assets/person/3.jpeg"
+              alt=""
+              className="sidebarFriendImg"
+            />
+            <span className="sidebarFriendName">Tanaka</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              src="/assets/person/4.jpeg"
+              alt=""
+              className="sidebarFriendImg"
+            />
+            <span className="sidebarFriendName">Sato</span>
           </li>
         </ul>
       </div>
