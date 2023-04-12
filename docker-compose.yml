@@ -7,4 +7,5 @@ services:
       - ./app:/app
     ports:
       - "8100:8100"
+      - "3000:3000"
     tty: true
